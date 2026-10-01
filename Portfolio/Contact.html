@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #f5f5f5;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 35px;
+    }
+
+    nav {
+      background: #2d3e50;
+      padding: 10px;
+      text-align: center;
+      border-radius: 3px;
+    }
+
+    nav a {
+      color: white;
+      margin: 20px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2d3e50;
+    }
+
+    hr {
+      margin: 25px 0;
+    }
+
+    .section-title {
+      color: #2d3e50;
+      border-bottom: 2px solid #f28c28;
+      padding-bottom: 5px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #2d3e50;
+      color: white;
+      padding: 8px 15px;
+      margin-right: 10px;
+      font-size: 13px;
+    }
+
+    form {
+      background: #fff6eb;
+      border: 1px solid #f4c08a;
+      padding: 15px;
+    }
+
+    fieldset {
+      border: 1px solid #dddddd;
+      margin-bottom: 15px;
+      padding: 15px;
+      background: white;
+    }
+
+    legend {
+      color: #f28c28;
+      font-weight: bold;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    textarea {
+      width: 300px;
+      height: 80px;
+    }
+
+    .center {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .end {
+      text-align: center;
+      color: gray;
+      font-size: 13px;
+      margin-top: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="About.html">About & Skills</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+
+    <h1>Get in Touch</h1>
+    <hr>
+    <h2 class="section-title">Direct Contact</h2>
+      <a href="mailto:example@gmail.com" class="button">Email Me</a>
+      <a href="tel:+911234567890" class="button">Call Me</a>
+      <br><br>
+    <h2 class="section-title">Or Send a Message</h2>
+
+    <form>
+      <fieldset>
+        <legend>Your Details</legend>
+          <label>Full Name:</label>
+          <input type="text" placeholder="Enter your name">
+          <label>Email:</label>
+          <input type="email">
+          <label>Date of Birth:</label>
+          <input type="date">
+      </fieldset>
+
+      <fieldset>
+        <legend>Message Details</legend>
+          <label>Preferred way to reply:</label>
+          <input type="radio" name="reply"> Email
+          <input type="radio" name="reply"> Phone
+          <br><br>
+
+          <label>What is this about?</label>
+          <input type="checkbox"> A Project
+          <input type="checkbox"> Feedback
+          <br><br>
+
+          <label>Subject:</label>
+          <select>
+            <option>Just Saying Hello</option>
+            <option>Project</option>
+            <option>Feedback</option>
+            <option>Job Opportunity</option>
+          </select>
+
+        <label>Your Message:</label>
+          <textarea placeholder="Write your message here..."></textarea>
+        </fieldset>
+
+      <input type="submit" value="Send Message">
+      <input type="reset" value="Clear Form">
+    </form>
+    <div class="center">
+
+      <a href="#">Back to Top</a>
+    </div>
+
+    <div class="end">
+      <p>Thank you for reaching out!</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

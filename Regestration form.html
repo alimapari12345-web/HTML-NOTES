@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="font-size: larger;">
+  <h1>Regestrarion form</h1>
+  <form action="/>submit" method="post">
+    <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required /><br><br>
+
+    <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Email" required/><br><br>
+
+    <label for="Password">Password:</label>
+      <input type="date" id="dob" name="dob" /><br><br>
+
+    <label for="Gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+    <label for="Male">Male</label>
+      <input type="radio" id="female" name="gender" value="female"/>
+    <label for="female"> Female </label><br><br>
+
+    <label for="hobbies">Hobbies:</label>
+      <input type="checkbox" id="hobby1" name="hobby" value="reading"/>
+    <label for="hobby1">Reading</label>
+      <input type="checkbox" id="hobby2" name="hobby" value="Coding"/>
+    <label type="hobby2">Coding</label><br><br>
+
+    <label for="photo">upload Photo:</label>
+      <input type="file" id="photo" name="photo" /><br><br>
+
+      <input type="submit" value="Register" />
+      <input type="reset" value="Clear form"/>
+  </form><br><br><br><br><hr><br>
+
+
+
+
+
+  <h1>Student Registration Form</h1>
+  <form action="/>submit" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="16" max="60" required><br><br>
+    </fieldset><br><br><br><br>
+    <fieldset>
+        <legend>Course Details</legend>
+        <label for="course">Choose a Course:</label>
+        <select id="course" name="course">
+          <optgroup label="Frontend">
+            <option value="html" selected>HTML</option>
+            <option value="css">CSS</option>
+          </optgroup>
+        </select><br><br>
+        <label for="mssg"> why do you want to join?</label><br>
+        <textarea
+        id="msg"
+        name="msg"
+        rows="8"
+        cols="80"
+        placeholder="Tell us briefly....."></textarea>
+</fieldset>
+</body>
+</html>
