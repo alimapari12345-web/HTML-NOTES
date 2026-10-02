@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Cormorant Garamond, serif;
+}
+img{
+  display: block;
+  width:100%;
+  height: 120vh;
+}
+
+
+.navbar{
+  top:48px;
+  left: 380px;
+  position: absolute;
+  z-index: 1;
+  background: rgba(229, 164, 80, 0.2);
+  border: 1px solid rgba(229, 164, 80, 0.50);
+  backdrop-filter: blur(12px);
+  padding: 15px 70px;
+  display: flex;
+  gap: 110px;
+  border-radius: 40px;
+  font-size: 17px;
+}
+a{
+  color:rgb(229, 164, 80);;
+  text-decoration: none;
+}
+
+.text{
+  position:absolute;
+  top:150px
+}
+.main-content{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-table {
+  width: 70%;
+  border-spacing: 0;
+  backdrop-filter: blur(10px);
+  border: 5px solid rgba(229, 164, 80,0.7);
+  border-radius: 16px;
+}
+
+
+.main-title {
+  height: 70px;
+  text-align: center;
+  padding: 0 18px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: rgb(229, 164, 80);
+  backdrop-filter: blur(15px);
+}
+
+.first-row{
+  font-size: 24px;
+}
+
+th {
+  padding: 9px;
+  text-align: center;
+  color: rgb(229, 164, 80);
+  backdrop-filter: blur(8px);
+}
+
+
+.category-cell {
+  text-align: center;
+  padding: 10px 8px;
+  color: rgb(229, 164, 80);
+  backdrop-filter: blur(10px);
+}
+
+
+.dish-name {
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #e0cfb8;
+}
+
+.dish-desc {
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #e0cfb8;
+}
+
+.dish-price {
+  color: #e0cfb8;
+  text-align: center;
+}

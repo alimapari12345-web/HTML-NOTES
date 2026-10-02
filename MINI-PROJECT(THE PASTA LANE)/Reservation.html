@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Reservation.css">
+  <title>Document</title>
+</head>
+<body>
+  <img src="Reservation Background.png">
+
+
+<nav class="navbar">
+  <span><a href="Home.html">Home</a></span>
+  <span><a href="Menu.html">Menu</a></span>
+  <span><a href="About.html">About</a></span>
+  <span><a href="Location.html">Location</a></span>
+  <span><a href="Reservation.html">Reservation</a></span>
+</nav>
+  <pre class="reservations">05--
+RESERVATIONS
+  </pre>
+
+<div class="form-container">
+
+<form class="form" action="#" method="POST">
+
+  <fieldset class="form-box">
+    <legend class="form-title">Reserve Your Table</legend>
+
+        <label for="name">Name <span class="required">*</span></label>
+        <input type="text" id="name" placeholder="Full name" required><br><br><br>
+
+
+
+
+        <label for="email">Email <span class="required">*</span></label>
+        <input type="email" id="email" placeholder="you@example.com" required><br><br><br>
+
+
+
+
+        <label for="phone">Phone <span class="required">*</span></label>
+        <input type="tel" id="phone" placeholder="Enter Your Number" required><br><br><br>
+
+
+
+
+        <label for="date">Date
+          <span class="required">*</span>
+        </label>
+        <input type="date" id="date" required><br><br><br>
+
+
+
+
+        <label for="guests">Number of Guests <span class="required">*</span></label>
+        <select required>
+          <option>Select guests</option>
+          <option value="1">1 Person</option>
+          <option value="2">2 People</option>
+          <option value="3">3 People</option>
+          <option value="4">4 People</option>
+          <option value="5">5+ People</option>
+        </select><br><br><br>
+
+
+        <label for="requests">Special Requests</label><br><br>
+        <textarea id="requests" rows="3" cols="100" placeholder="Any allergies, special requests, or notes?"></textarea>
+
+  </fieldset>
+
+  <!-- Submit Button -->
+  <button type="submit" class="submit-btn">Request a Table</button>
+</form>
+</div>
+
+</body>
+</html>

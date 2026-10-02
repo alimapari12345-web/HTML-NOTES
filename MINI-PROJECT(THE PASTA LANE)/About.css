@@ -1,0 +1,135 @@
+:root{
+  --beige:rgb(227, 201, 165);
+  --gold:rgb(229, 164, 80);
+  --dark-red:rgb(72, 3, 3);
+  --red:rgb(128, 0, 30);
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Cormorant Garamond, serif;
+}
+img{
+  display: block;
+  width:100%;
+  height: 120vh;
+}
+
+/* Nav Bar */
+.navbar{
+  top:48px;
+  left: 380px;
+  position: absolute;
+  z-index: 1;
+  background: rgb(72, 3, 3, 0.5);
+  border: 1px solid rgb(72, 3, 3, 0.7);
+  backdrop-filter: blur(12px);
+  padding: 15px 70px;
+  display: flex;
+  gap: 110px;
+  border-radius: 40px;
+  font-size: 17px;
+}
+a{
+  color:var(--beige);
+  text-decoration: none;
+}
+
+.text{
+  position:absolute;
+  top:150px
+}
+
+.chef{
+  position: absolute;
+  top:120px;
+  left:380px;
+  width:250px;
+  height: 320px;
+  border-radius: 10px;
+}
+.chef-desc-1{
+  position: absolute;
+  top:120px;
+  left:700px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.chef-desc-2{
+  position:absolute;
+  top:160px;
+  left:700px;
+  font-size:38px;
+  font-weight: bold;
+  color: var(--red);
+}
+.chef-desc-3{
+  position: absolute;
+  top:230px;
+  left:700px;
+  font-size: 22px;
+}
+.chef-desc-4{
+  position: absolute;
+  top:330px;
+  left:700px;
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--red);
+}
+.chef-desc-5{
+  position: absolute;
+  top:390px;
+  left:700px;
+  font-size: 22px;
+}
+pre{
+  position: absolute;
+  top:160px;
+  left:100px;
+  font-size: 45px;
+  color: var(--red);
+  border-bottom: 5px solid var(--red);
+}
+.experience{
+  position: absolute;
+  top:520px;
+  left:100px;
+  font-size: 45px;
+  color: var(--gold);
+  border-bottom: 5px solid var(--gold);
+}
+.gallary-1{
+  position: absolute;
+  top:510px;
+  left:400px;
+  width:290px;
+  height: 240px;
+  border-radius:60px;
+}
+.gallary-2{
+  position: absolute;
+  top:510px;
+  left:740px;
+  width:220px;
+  height: 240px;
+  border-radius:60px;
+}
+.gallary-3{
+  position: absolute;
+  top:510px;
+  left:1000px;
+  width:290px;
+  height: 240px;
+  border-radius:60px;
+}
+.gallary-4{
+  position: absolute;
+  top:510px;
+  left:1330px;
+  width:240px;
+  height: 240px;
+  border-radius:60px;
+}
+
